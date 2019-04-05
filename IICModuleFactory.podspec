@@ -30,6 +30,8 @@ Spring Bean 自研解耦库 ； 完全的String路由解耦方式
 
   s.ios.deployment_target = '8.0'
 
+  s.swift_version = '4.2'
+
   s.source_files = 'IICModuleFactory/Classes/**/*'
   
   # s.resource_bundles = {
