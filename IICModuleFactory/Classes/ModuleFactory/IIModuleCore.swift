@@ -42,7 +42,7 @@ import Foundation
  mrshan - 2017-8-4
  */
 
-class IIModuleCore: NSObject {
+public class IIModuleCore: NSObject {
     
     /// 将模块持久在这里
     private var moduleIns: [ModuleGodFather] = []
