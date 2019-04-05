@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IICModuleFactory_Example' do
+  pod 'IICModuleFactory', :path => '../'
+
+  target 'IICModuleFactory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

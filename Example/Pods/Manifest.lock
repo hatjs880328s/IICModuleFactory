@@ -1,0 +1,16 @@
+PODS:
+  - IICModuleFactory (0.1.0)
+
+DEPENDENCIES:
+  - IICModuleFactory (from `../`)
+
+EXTERNAL SOURCES:
+  IICModuleFactory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IICModuleFactory: 6dac92788a80a3d5dc4a6e23c9f95dfe9a5139bf
+
+PODFILE CHECKSUM: b7c76730a7a39ffaaacd370e478f6a907ec48ffc
+
+COCOAPODS: 1.6.0.beta.2

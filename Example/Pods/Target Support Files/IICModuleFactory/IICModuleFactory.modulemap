@@ -1,0 +1,6 @@
+framework module IICModuleFactory {
+  umbrella header "IICModuleFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}
