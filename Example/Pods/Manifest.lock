@@ -1,5 +1,5 @@
 PODS:
-  - IICModuleFactory (0.1.0)
+  - IICModuleFactory (0.2.0)
 
 DEPENDENCIES:
   - IICModuleFactory (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IICModuleFactory: b6675ae74a4417fd262d3bf08f5083d906a98dae
+  IICModuleFactory: 062a9bcd5e3110a76843e8187c388d59c75d70d8
 
 PODFILE CHECKSUM: b7c76730a7a39ffaaacd370e478f6a907ec48ffc
 

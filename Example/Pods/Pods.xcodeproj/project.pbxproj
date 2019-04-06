@@ -14,6 +14,12 @@
 		2C2EC23DF0F96D3E321BC8DBE9857C48 /* IIModuleCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28775FF0AABCDC5C1729F19DB58A8A4D /* IIModuleCore.swift */; };
 		3FD08A1EBEE42E8CCFF4C7D0D055DF5C /* Pods-IICModuleFactory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5221065AEE6CD58D73E77F1678153D1D /* Pods-IICModuleFactory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55813496FEA6745BB88DAA7C00952CAE /* ModuleGodFatherPostBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E267225E42D8A1C91DB26F0D3A047 /* ModuleGodFatherPostBack.swift */; };
+		564E3A9E225837ED00354182 /* XMLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E3A96225837ED00354182 /* XMLFactory.swift */; };
+		564E3A9F225837ED00354182 /* BeanDicCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E3A97225837ED00354182 /* BeanDicCenter.swift */; };
+		564E3AA0225837ED00354182 /* SourceBean.xml in Resources */ = {isa = PBXBuildFile; fileRef = 564E3A99225837ED00354182 /* SourceBean.xml */; };
+		564E3AA1225837ED00354182 /* BeanFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E3A9A225837ED00354182 /* BeanFactory.swift */; };
+		564E3AA2225837ED00354182 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 564E3A9C225837ED00354182 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		564E3AA3225837ED00354182 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 564E3A9D225837ED00354182 /* XMLDictionary.m */; };
 		616B8F7597FC53A2A4D2CBD8E4A37850 /* Pods-IICModuleFactory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E4571EF07797B24B84D890AD2B9349 /* Pods-IICModuleFactory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		702887E674F75D57953E4C8FF7F417CC /* IIModuleInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3E5EFDE6A2E72B54E684E2A50B417 /* IIModuleInvocation.m */; };
 		84C5D0BF0D2634867BCCE1E5D7213618 /* ModuleGodFather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776D4AF763883E7C2B1CE74E24D66BB /* ModuleGodFather.swift */; };
@@ -56,27 +62,33 @@
 		1EA5C7AD561E633C34DFD3685B102AE0 /* IIModuleInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIModuleInvocation.h; path = IICModuleFactory/Classes/ModuleFactory/IIModuleInvocation.h; sourceTree = "<group>"; };
 		28775FF0AABCDC5C1729F19DB58A8A4D /* IIModuleCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IIModuleCore.swift; path = IICModuleFactory/Classes/ModuleFactory/IIModuleCore.swift; sourceTree = "<group>"; };
 		2FEE0526C1DEA786BCD20088661735AF /* Pods-IICModuleFactory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IICModuleFactory_Tests.modulemap"; sourceTree = "<group>"; };
-		36BD61AB6F18F105BFBFAFCDE12E1085 /* IICModuleFactory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IICModuleFactory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3E8152AB50327D0D8CE7D7D69B90DEA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		36BD61AB6F18F105BFBFAFCDE12E1085 /* IICModuleFactory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IICModuleFactory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E8152AB50327D0D8CE7D7D69B90DEA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		48D3E557638897C5D4F15554B3E75AEB /* Pods-IICModuleFactory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IICModuleFactory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5221065AEE6CD58D73E77F1678153D1D /* Pods-IICModuleFactory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IICModuleFactory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		560F21B0F607E3C0E5652900853F6903 /* Pods-IICModuleFactory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IICModuleFactory_Example.modulemap"; sourceTree = "<group>"; };
+		564E3A96225837ED00354182 /* XMLFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLFactory.swift; sourceTree = "<group>"; };
+		564E3A97225837ED00354182 /* BeanDicCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanDicCenter.swift; sourceTree = "<group>"; };
+		564E3A99225837ED00354182 /* SourceBean.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SourceBean.xml; sourceTree = "<group>"; };
+		564E3A9A225837ED00354182 /* BeanFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeanFactory.swift; sourceTree = "<group>"; };
+		564E3A9C225837ED00354182 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		564E3A9D225837ED00354182 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		5B7E00CFE136D35B41FAFE22A376B853 /* IICModuleFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IICModuleFactory-prefix.pch"; sourceTree = "<group>"; };
 		61D3D284ADDC1E0E3819D36A729344EB /* RegisterModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegisterModel.swift; path = IICModuleFactory/Classes/ModuleFactory/RegisterModel.swift; sourceTree = "<group>"; };
 		7ECDB67DD66B7F71E6ED29C396E5719F /* ModuleGodFatherInvoke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleGodFatherInvoke.swift; path = IICModuleFactory/Classes/ModuleFactory/ModuleGodFatherInvoke.swift; sourceTree = "<group>"; };
-		8BF6F742B5138C16D0B9AD5E17801A98 /* IICModuleFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IICModuleFactory.framework; path = IICModuleFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CE50686CD32BFE6B9E8B65B467F1EF4 /* Pods_IICModuleFactory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IICModuleFactory_Tests.framework; path = "Pods-IICModuleFactory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF6F742B5138C16D0B9AD5E17801A98 /* IICModuleFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IICModuleFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE50686CD32BFE6B9E8B65B467F1EF4 /* Pods_IICModuleFactory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IICModuleFactory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		949400B67D2A629E6975E82151CF9B14 /* Pods-IICModuleFactory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IICModuleFactory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9DF3E5EFDE6A2E72B54E684E2A50B417 /* IIModuleInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IIModuleInvocation.m; path = IICModuleFactory/Classes/ModuleFactory/IIModuleInvocation.m; sourceTree = "<group>"; };
 		A74FD289D1100FA0D9B9B1175EACFEC5 /* ModuleFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleFactory.swift; path = IICModuleFactory/Classes/ModuleFactory/ModuleFactory.swift; sourceTree = "<group>"; };
 		AEF74A0014D059955F9D021B36220236 /* ModuleGodFatherRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleGodFatherRegister.swift; path = IICModuleFactory/Classes/ModuleFactory/ModuleGodFatherRegister.swift; sourceTree = "<group>"; };
 		B0E4571EF07797B24B84D890AD2B9349 /* Pods-IICModuleFactory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IICModuleFactory_Example-umbrella.h"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B629CA60BC00B17123BEA25DA6CB4817 /* Pods-IICModuleFactory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IICModuleFactory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B936703B556729EDDA9EA73AE7D6E0D8 /* Pods_IICModuleFactory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IICModuleFactory_Example.framework; path = "Pods-IICModuleFactory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B936703B556729EDDA9EA73AE7D6E0D8 /* Pods_IICModuleFactory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IICModuleFactory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D6F48FA4E6228AEC4664925561A67 /* Pods-IICModuleFactory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IICModuleFactory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9C7E66479D0B247E5865D7F774A4081 /* Pods-IICModuleFactory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IICModuleFactory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDB7D3B029747DF5A1C1625C65040732 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CDB7D3B029747DF5A1C1625C65040732 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB95454342C1D66B6A2CF66E0E9865B8 /* Pods-IICModuleFactory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IICModuleFactory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E05497E6EF58C3ACA5173D4924F2AC7E /* Pods-IICModuleFactory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IICModuleFactory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +148,8 @@
 		5020E12F27015C085645377E06B6149F /* IICModuleFactory */ = {
 			isa = PBXGroup;
 			children = (
+				564E3A95225837ED00354182 /* IBLLFactory */,
+				564E3A9B225837ED00354182 /* IIXML */,
 				28775FF0AABCDC5C1729F19DB58A8A4D /* IIModuleCore.swift */,
 				1EA5C7AD561E633C34DFD3685B102AE0 /* IIModuleInvocation.h */,
 				9DF3E5EFDE6A2E72B54E684E2A50B417 /* IIModuleInvocation.m */,
@@ -150,6 +164,36 @@
 			);
 			name = IICModuleFactory;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		564E3A95225837ED00354182 /* IBLLFactory */ = {
+			isa = PBXGroup;
+			children = (
+				564E3A96225837ED00354182 /* XMLFactory.swift */,
+				564E3A97225837ED00354182 /* BeanDicCenter.swift */,
+				564E3A98225837ED00354182 /* xmls */,
+				564E3A9A225837ED00354182 /* BeanFactory.swift */,
+			);
+			name = IBLLFactory;
+			path = IICModuleFactory/Classes/IBLLFactory;
+			sourceTree = "<group>";
+		};
+		564E3A98225837ED00354182 /* xmls */ = {
+			isa = PBXGroup;
+			children = (
+				564E3A99225837ED00354182 /* SourceBean.xml */,
+			);
+			path = xmls;
+			sourceTree = "<group>";
+		};
+		564E3A9B225837ED00354182 /* IIXML */ = {
+			isa = PBXGroup;
+			children = (
+				564E3A9C225837ED00354182 /* XMLDictionary.h */,
+				564E3A9D225837ED00354182 /* XMLDictionary.m */,
+			);
+			name = IIXML;
+			path = IICModuleFactory/Classes/IIXML;
 			sourceTree = "<group>";
 		};
 		6BEB10D2F9F3C51B30404D9B989419FF /* Support Files */ = {
@@ -262,6 +306,7 @@
 			files = (
 				941EDA0760A84592A38952CD6363E579 /* IICModuleFactory-umbrella.h in Headers */,
 				B38BFC83AC745C0289BB4539C9F8E042 /* IIModuleInvocation.h in Headers */,
+				564E3AA2225837ED00354182 /* XMLDictionary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564E3AA0225837ED00354182 /* SourceBean.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,14 +443,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564E3AA3225837ED00354182 /* XMLDictionary.m in Sources */,
 				07C241E2511B719ED6F9086679D2AD68 /* IICModuleFactory-dummy.m in Sources */,
 				2C2EC23DF0F96D3E321BC8DBE9857C48 /* IIModuleCore.swift in Sources */,
 				702887E674F75D57953E4C8FF7F417CC /* IIModuleInvocation.m in Sources */,
 				C69E647B25E1377D3DA2856B2ACFB676 /* ModuleFactory.swift in Sources */,
 				84C5D0BF0D2634867BCCE1E5D7213618 /* ModuleGodFather.swift in Sources */,
 				9157E4BC17A07B338D6542CE382EBC94 /* ModuleGodFatherInvoke.swift in Sources */,
+				564E3AA1225837ED00354182 /* BeanFactory.swift in Sources */,
+				564E3A9F225837ED00354182 /* BeanDicCenter.swift in Sources */,
 				55813496FEA6745BB88DAA7C00952CAE /* ModuleGodFatherPostBack.swift in Sources */,
 				DA63E732B2D84FF387EF9E6C8BF8F444 /* ModuleGodFatherRegister.swift in Sources */,
+				564E3A9E225837ED00354182 /* XMLFactory.swift in Sources */,
 				B1A821819802D61B199E2853E09427A4 /* RegisterModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,8 +703,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

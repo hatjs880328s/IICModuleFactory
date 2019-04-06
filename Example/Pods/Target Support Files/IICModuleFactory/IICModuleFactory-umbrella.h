@@ -11,6 +11,7 @@
 #endif
 
 #import "IIModuleInvocation.h"
+#import "XMLDictionary.h"
 
 FOUNDATION_EXPORT double IICModuleFactoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char IICModuleFactoryVersionString[];
