@@ -8,19 +8,14 @@
 
 import Foundation
 
-/// 注册服务功能
 extension ModuleGodFather {
     
-    /// 根据当前类名字，设置 moduleURL & backModuleURL
     func setModuleURLAndBackurl() {
         guard let className = getClassType()?.0 else { return }
         self.moduleURL = className + "/"
         self.backModuleURL = "back" + "/" + self.moduleURL
     }
-    
-    /// 获取当前类的类名字和 类.type
-    ///
-    /// - Returns: turpleInfo
+
     func getClassType() -> (String, AnyClass)? {
         let className = self.description.components(separatedBy: ":")[0].components(separatedBy: ".")[1]
         guard let nameSpace = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String else { return nil }
@@ -28,7 +23,6 @@ extension ModuleGodFather {
         return (className, cls)
     }
     
-    /// 注册方法
     func registerFunctions() {
         var methodNum: UInt32 = 0
         guard let listInfo = getClassType()?.1 else { return }

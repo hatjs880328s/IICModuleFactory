@@ -11,7 +11,7 @@
 @interface IIModuleInvocation : NSObject
 
 
-/// 多个参数以及非nsobject子类的方法
+/// invoke more than one param & non-nsobject method
 - (id)invokingMethod:(NSObject *)mateClass selector: (SEL)realSelector params:(NSMutableDictionary *)paramsDic;
 
 
