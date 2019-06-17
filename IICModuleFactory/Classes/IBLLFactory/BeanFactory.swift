@@ -30,7 +30,7 @@ import Foundation
  1.BLL class must extends NSObject & interface IBLL
  */
 
-class BeanFactory: NSObject {
+public class BeanFactory: NSObject {
     
     /// Use bean factory create real bll instance - type is ibll
     ///
