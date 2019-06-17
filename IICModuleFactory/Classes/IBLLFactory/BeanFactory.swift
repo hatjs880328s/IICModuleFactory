@@ -46,7 +46,7 @@ class BeanFactory: NSObject {
     }
     
     /// run time create instance by str info 
-    private func swiftClassFromString(strInfo: String) -> Any? {
+    public func swiftClassFromString(strInfo: String) -> Any? {
         guard let nameSpace = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String else { return nil }
         let cls = NSClassFromString("\(nameSpace).\(strInfo)") as? NSObject.Type
         if cls == nil { return nil }
